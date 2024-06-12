@@ -1,0 +1,3 @@
+FROM amozejko/centos:old
+
+RUN echo "mypassword" > ~/.git-credentials
